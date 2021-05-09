@@ -1,0 +1,51 @@
+---
+output: github_document
+editor_options: 
+  chunk_output_type: console
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+options(warn=-1)
+```
+
+# JSthemes
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The purpose is personal usage. Built from Ricardo Bion's code for ggtech package and inspiration from hrbrmstr/hrbthemes and gadenbuie/xaringanthemer.
+
+## Installation
+
+
+Development version from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("JohanSalomonssonSV/JSthemes")
+```
+## Example
+
+This is a basic example which shows you how to solve a common problem:
+
+```{r  warnings = FALSE}
+library(tidyverse)
+library(JSthemes)
+```
+
+
+
+```{r cars, echo = FALSE, warnings = FALSE}
+cars %>% ggplot(aes(speed, dist)) + geom_point() +theme_JS_fancy()+ labs(title="Simple example")
+
+```
+
+
