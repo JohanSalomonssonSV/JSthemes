@@ -1,11 +1,11 @@
 ##########
 #' JS theme, which is built on Ricardo Bion's code for ggtech
-#'
+#' @importFrom ggplot2 theme_classic theme element_text element_blank element_line element_rect
 #' @export
 #' @name theme_JS
 #' @title JS themes  for ggplot2
-#' @examples
-#' theme_JS(theme="JS")
+#' @param theme theme JS
+#' @param tech_key list of colors
 
 theme_JS <- function(theme="JS", tech_key = list(
   # airbnb = list(

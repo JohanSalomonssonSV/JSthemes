@@ -10,9 +10,11 @@ theme_JS(
     "[z] Arista Light", colour_title = "#5380E4", colour_text = "#535353"))
 )
 }
+\arguments{
+\item{theme}{theme JS}
+
+\item{tech_key}{list of colors}
+}
 \description{
 JS theme, which is built on Ricardo Bion's code for ggtech
-}
-\examples{
-theme_JS(theme="JS")
 }

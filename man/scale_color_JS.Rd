@@ -10,9 +10,12 @@ scale_color_JS(
     = c("#FF0000", "#00FF00", "#FFFF00", "#00FFFF", "#FF00FF", "#FF00FF"))
 )
 }
+\arguments{
+\item{theme}{theme JS}
+
+\item{tech_key}{list of colors
+scale_color_JS(theme="JS")}
+}
 \description{
 JS scale color, which is built on Ricardo Bion's code for ggtech
-}
-\examples{
-scale_color_JS(theme="JS")
 }

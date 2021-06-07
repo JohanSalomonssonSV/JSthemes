@@ -10,9 +10,11 @@ scale_fill_JS(
     = c("#FF0000", "#00FF00", "#FFFF00", "#00FFFF", "#FF00FF", "#FF00FF"))
 )
 }
+\arguments{
+\item{theme}{theme JS}
+
+\item{tech_key}{list of colors}
+}
 \description{
 JS scale fill, which is built on Ricardo Bion's code for ggtech
-}
-\examples{
-scale_fill_JS(theme="JS")
 }

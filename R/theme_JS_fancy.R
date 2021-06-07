@@ -1,12 +1,12 @@
 ##########
 #' Theme JS fancy, which is built on Ricardo Bion's code for ggtech
+#' @importFrom ggplot2 theme_classic theme element_text element_blank element_line element_rect update_geom_defaults
 #' @export theme_JS_fancy
 #' @name theme_JS_fancy
 #' @title JS theme for ggplot2
 #' @return A theme element
-#' @examples
-#' qplot(1) + theme_JS_fancy()
-###
+#' @param base_size base_size
+
 
 theme_JS_fancy <- function(base_size=2.5) {
   # Generate the colors for the chart procedurally with RColorBrewer

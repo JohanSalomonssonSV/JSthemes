@@ -1,11 +1,11 @@
 ##########
 #' JS scale fill, which is built on Ricardo Bion's code for ggtech
-#'
+#' @importFrom ggplot2 scale_fill_manual
 #' @export
 #' @name scale_fill_JS
 #' @title JS scale fill for ggplot2
-#' @examples
-#' scale_fill_JS(theme="JS")
+#' @param theme theme JS
+#' @param tech_key list of colors
 
 
 scale_fill_JS <- function(theme="JS", tech_key = list(
@@ -13,6 +13,6 @@ scale_fill_JS <- function(theme="JS", tech_key = list(
   Bright=c("#FF0000","#00FF00","#FFFF00","#00FFFF","#FF00FF","#FF00FF")
 )) {
 
-  scale_fill_manual(values=tech_key[[theme]])
+  ggplot2::scale_fill_manual(values=tech_key[[theme]])
 
 }

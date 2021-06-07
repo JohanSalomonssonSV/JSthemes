@@ -6,12 +6,12 @@
 \usage{
 theme_JS_fancy(base_size = 2.5)
 }
+\arguments{
+\item{base_size}{base_size}
+}
 \value{
 A theme element
 }
 \description{
 Theme JS fancy, which is built on Ricardo Bion's code for ggtech
-}
-\examples{
-qplot(1) + theme_JS_fancy()
 }
